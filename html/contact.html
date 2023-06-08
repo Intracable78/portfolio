@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css//contact.css">
+    <title>Me contacter</title>
+</head>
+
+<body>
+
+    <nav class="menu">
+        <a href="/" class="logo">
+            <p>MT</p>
+        </a>
+        <ul class="contact-real">
+            <li><a class="realisation" href="./index.html">Mes réalisations</a></li>
+        </ul>
+    </nav>
+
+    <section class="blockContact">
+        <div class="blockForm">
+            <div class="formContact">
+
+                <h2>Me contacter</h2>
+                <p>Lorsque vous allez me contacter, je recevrais votre message directement dans ma boite e-mail, merci
+                    de donner un maximum de détails dans votre message.</p>
+                <div class="form">
+                    <form action="/contact" method="POST">
+
+                        <input type="name" class="input" name='name' id='name' required placeholder="Nom & Prénom">
+
+
+
+                        <input type="email" class="input" name='email' id='email' required placeholder="Email">
+
+
+                        <textarea name="message" class="textarea" id="message"
+                            class="@error('message') is-invalid @enderror" required></textarea>
+
+
+
+                        <button class="submitButton" type="submit">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    </form>
+
+    <section class="contacter">
+        <div class="retrouver">
+            <h1>Me retrouver</h1>
+        </div>
+        <div class="containerGit">
+            <div class="github">
+                <svg xmlns="http://www.w3.org/2000/svg" width="120px" id="github" fill="#ffc576" viewBox="0 0 16 16">
+                    <path
+                        d="M8 1.2a6.99 6.99 0 00-2.32 13.58c.37.1.32-.17.32-.35v-1.2c-2.13.24-2.21-1.16-2.35-1.4-.3-.49-.97-.61-.77-.85.49-.24.98.07 1.55.9.41.62 1.22.52 1.62.42.1-.37.28-.7.55-.95-2.2-.4-3.12-1.74-3.12-3.33 0-.78.26-1.49.76-2.06-.32-.95.03-1.76.07-1.88.91-.08 1.86.65 1.93.71.51-.14 1.1-.21 1.76-.21.67 0 1.26.08 1.78.22.17-.14 1.05-.77 1.9-.69.04.12.38.91.08 1.84.5.58.76 1.3.76 2.07 0 1.6-.92 2.94-3.12 3.33a2 2 0 01.6 1.42v1.76c0 .14 0 .28.23.28A7 7 0 007.99 1.19z"
+                        fill="#ffc576"></path>
+                </svg>
+                <a target="_blank" href="https://github.com/intracable78"><button
+                        class="buttonGit">github.com/intracable78</button></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Intégration & développement : Tomasi Mattéo</p>
+    </footer>
+
+</body>
+
+</html>

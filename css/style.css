@@ -1,0 +1,600 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-size: 30px;
+    color: #ffc576;
+    text-decoration: none;
+    margin-left: 10%;
+
+}
+
+.menu {
+    height: 80px;
+    width: 100%;
+    background-color: #1f2235;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.contact-real {
+    display: flex;
+    margin-left: auto;
+    margin-right: 5%;
+    height: 80%;
+    align-items: center;
+
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.contact {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: none;
+    font-size: 14px;
+    border-radius: 3px;
+    transition: .3s;
+    text-decoration: none;
+    border: 2px #ffc576 solid;
+    padding: 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.realisation {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: none;
+    font-size: 14px;
+    padding: 15px;
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.contact:hover {
+    background-color: #ffc576;
+    color: #1f2235;
+}
+
+.realisation:hover {
+    color: #1f2235;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    cursor: pointer;
+    background-color: #ffc576;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.body {
+    min-height: 100vh;
+    background-color: #1f2235;
+    background-image: url("./../assets//background.png");
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.shape {
+    position: absolute;
+    width: 157px;
+    height: 151px;
+    animation: rotating 10s linear infinite normal;
+    margin-top: 100px;
+}
+
+.type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.allcompetences {
+    height: 500px;
+    width: 100%;
+    background-color: #313552;
+
+}
+
+.competences {
+    display: flex;
+    justify-content: center;
+}
+
+.competences h1 {
+    color: #ffc576;
+    font-family: Playfair Display, serif;
+    margin-top: 2%;
+    text-transform: uppercase;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.buttonGit {
+    cursor: pointer;
+}
+
+
+.backend,
+.frontend {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px rgba(255, 197, 118, .4) solid;
+    width: 400px;
+    height: 300px;
+    margin-top: 3%;
+    padding: 32px;
+
+}
+
+.backend:hover,
+.frontend:hover {
+    border: 1px rgba(255, 197, 118) solid;
+}
+
+.imgback,
+.imgfront {
+    display: flex;
+
+}
+
+
+.backend h3,
+.frontend h3 {
+    color: #fff;
+    font-family: Playfair Display, serif;
+    font-size: 1.4rem;
+    margin-top: 4%;
+    font-weight: 700;
+}
+
+
+.backend p,
+.frontend p {
+    color: #fff;
+    font-family: Playfair Display, serif;
+    font-weight: 400;
+    margin-top: 10%;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.svgbackphp {
+    padding-right: 10%;
+    margin-top: 7%;
+}
+
+.svgfrontvuejs {
+    padding-right: 10%;
+}
+
+
+
+.background {
+    background: url("./../assets/bg.png") 0 fixed no-repeat;
+    min-height: 100vh;
+    background-color: #1f2235;
+}
+
+.realisations {
+    font-family: Playfair Display, serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.realisations h1 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    color: rgba(255, 197, 118)
+}
+
+
+.glider {
+
+    width: 80%;
+    overflow: hidden;
+}
+
+.dots .glider-dot {
+    display: block;
+    width: 30px;
+    height: 5px;
+    opacity: .2;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    margin-top: 1%;
+}
+
+.dots .glider-dot:hover {
+    color: rgba(255, 197, 118);
+    opacity: .5;
+
+}
+
+.dots .glider-dot.active {
+    opacity: 1;
+}
+
+.card {
+    background-color: #313552;
+    border-radius: 3% 3% 0 0;
+    -webkit-border-radius: 3% 3% 0 0;
+    -moz-border-radius: 3% 3% 0 0;
+    -ms-border-radius: 3% 3% 0 0;
+    -o-border-radius: 3% 3% 0 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-bottom: 3px solid rgba(255, 197, 118, 0.5);
+    height: 582px;
+
+}
+
+.card:hover {
+    border-bottom: 3px solid rgba(255, 197, 118);
+}
+
+.card img {
+    width: 100%;
+    height: 50%;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+
+}
+
+.informations {
+    padding: 40px 32px;
+    font-family: Playfair Display, serif;
+    color: #fff;
+}
+
+.informations h5 {
+    color: rgba(255, 197, 118);
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+
+/*.card:hover img{
+    transform: scale(1.1);
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}*/
+
+.informations a {
+    font-size: 24px;
+    font-family: Playfair Display, serif;
+    font-weight: 600;
+    transition: color .3s;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -ms-transition: color .3s;
+    -o-transition: color .3s;
+
+}
+
+
+
+.informations a:hover {
+    color: rgba(255, 197, 118);
+}
+
+.informations p {
+    margin-top: 5%;
+
+}
+
+.card button {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    background-color: transparent;
+}
+
+.card a button {
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 197, 118);
+    padding: 15px 20px;
+    color: rgba(255, 197, 118);
+}
+
+
+.card a button:hover {
+    color: #313552;
+    background-color: rgba(255, 197, 118);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.contacter {
+    min-height: 30vh;
+    background-color: #313552;
+}
+
+.retrouver {
+    display: flex;
+    justify-content: center;
+}
+
+.contacter h1 {
+    color: rgba(255, 197, 118);
+    text-transform: uppercase;
+    font-family: Playfair Display, serif;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.github {
+    display: flex;
+    width: 30%;
+    height: 200px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.containerGit {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.github a button {
+    margin-top: 10%;
+    padding: 20px;
+    background-color: transparent;
+    color: rgba(255, 197, 118);
+    border: 1px solid rgba(255, 197, 118);
+    font-size: 20px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -ms-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+
+.github a button:hover {
+    color: #313552;
+    background-color: rgba(255, 197, 118);
+}
+
+footer {
+    background-color: #2e3255;
+    min-height: 12vh;
+    color: #9899a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.plus {
+    cursor: pointer;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1F2235;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #313552;
+    border-radius: 5px;
+}
+
+* {
+    scrollbar-width: 6px;
+    scrollbar-color: #313552;
+
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+
+
+
+
+
+
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(+100px);
+        -webkit-transform: translateY(+100px);
+        -moz-transform: translateY(+100px);
+        -ms-transform: translateY(+100px);
+        -o-transform: translateY(+100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+
+
+
+
+
+@keyframes rotating {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+
+    .glider {
+        overflow: initial;
+    }
+
+    .logo p {
+        display: none;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .allcompetences {
+        height: 750px;
+    }
+
+    .backend,
+    .frontend {
+        padding: 15px;
+        width: 250px;
+        margin-top: 5%;
+
+    }
+
+
+
+    .contact,
+    .realisation {
+        font-size: 10px;
+    }
+
+    .dots .glider-dot {
+        margin-top: 5%;
+    }
+
+    .background {
+        height: 600px;
+    }
+
+    .plus {
+        font-size: 10px;
+
+    }
+
+    .informations h5 {
+        font-size: 11px;
+    }
+
+    .informations a {
+        font-size: 14px;
+    }
+
+    .informations p {
+        font-size: 10px;
+    }
+
+    .github svg {
+        width: 80px;
+    }
+
+    .github a button {
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
+    .backend h3,
+    .frontend h3 {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 850px) {
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .allcompetences {
+        height: 750px;
+    }
+
+    .glider {
+        overflow: initial;
+
+    }
+
+
+
+
+}
